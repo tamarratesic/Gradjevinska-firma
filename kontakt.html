@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Građevinska Firma - Kontakt</title>
+</head>
+<body>
+    <header>
+        <h1>Građevinska Firma-Tešić</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="o-nama.html">O nama</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="contact">
+        <h2>Kontakt</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Ime:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Poruka:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Pošalji</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Građevinska Firma-Tešić. Sva prava zadržana.</p>
+    </footer>
+</body>
+</html>
